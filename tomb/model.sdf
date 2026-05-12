@@ -89,7 +89,7 @@
           <geometry>
             <mesh>
               <scale>0.85 0.85 0.85</scale>
-              <uri>model://tomb/meshes/West_Five_Royal_Tomb.dae</uri>
+              <uri>model://meshes/West_Five_Royal_Tomb.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -99,7 +99,7 @@
           <geometry>
             <mesh>
               <scale>0.85 0.85 0.85</scale>
-              <uri>model://tomb/meshes/West_Five_Royal_Tomb.stl</uri>
+              <uri>model://meshes/West_Five_Royal_Tomb.dae</uri>
             </mesh>
           </geometry>
         </collision>
