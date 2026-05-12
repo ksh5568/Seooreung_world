@@ -66,8 +66,8 @@ git clone https://github.com/ksh5568/West_Five_Royal_Tombs_model.git
 클론한 저장소 안의 파일들을 `worlds/` 디렉토리로 이동합니다.
 
 ```bash
-mv tomb_world_model/West_Five_Royal_Tombs_model/tomb.sdf .
-mv tomb_world_model/West_Five_Royal_Tombs_model/tomb ./
+mv West_Five_Royal_Tombs_model/tomb.sdf .
+mv West_Five_Royal_Tombs_model/tomb ./
 ```
 
 완료 후 디렉토리 구조는 다음과 같아야 합니다.
@@ -94,7 +94,8 @@ PX4_GZ_WORLD=tomb PX4_GZ_MODEL_POSE="0,0,3.8" make px4_sitl gz_x500
 ### Gazebo 단독 실행
 
 ```bash
-gz sim ~/PX4-Autopilot/Tools/simulation/gz/worlds/tomb.sdf
+export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:~/PX4-Autopilot/Tools/simulation/gz/worlds
+gz sim ~/PX4-Autopilot/Tools/simulation/gz/worlds/tomb/model.sdf
 ```
 
 ---
