@@ -58,7 +58,7 @@ West_Five_Royal_Tombs_model/
 
 ```bash
 cd ~/PX4-Autopilot/Tools/simulation/gz/worlds
-git clone https://github.com/ksh5568/Seoreung_world.git
+git clone https://github.com/ksh5568/Seooreung_world.git
 ```
 
 ### 2. 월드 파일 배치
